@@ -1,5 +1,6 @@
 :root {
   --bg-primary-clr: #f1fff8;
+  --bg-secondary-clr: #034a48;
 }
 
 * {
@@ -173,4 +174,177 @@ body {
 
 .usp__description {
   font-size: 2rem;
+}
+
+.hr {
+  width: 88%;
+  margin: 6.2rem auto;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.brands__list {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0 2.2rem;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+  padding: 0 30rem 12rem;
+}
+
+.quote__text {
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.quote__author {
+  font-size: 2.2rem;
+}
+
+.cta {
+  background-color: var(--bg-secondary-clr);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+  padding: 12.5rem 30rem;
+  position: relative;
+  z-index: -1;
+}
+
+.cta__title {
+  font-size: 4.6rem;
+  text-align: center;
+}
+
+.cta__subtitle {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.cta__form {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta__input {
+  width: 50%;
+  border-radius: 10rem;
+  border: 1px solid lightgray;
+  padding: 2rem 2.5rem;
+  font-size: 1.6rem;
+}
+
+.cta__input::placeholder {
+  font-size: 1.6rem;
+  color: #000;
+}
+
+.cta__button {
+  padding: 1.5rem 2rem;
+  border-radius: 10rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  right: 19rem;
+  transform: translateY(-50%);
+}
+
+.cta__button:hover {
+  background-color: #3f3f45;
+  cursor: pointer;
+}
+
+.cta__small {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 2.2rem;
+}
+
+.cta__left-bottom--circle {
+  background-color: #61e096;
+  position: absolute;
+  bottom: -15rem;
+  left: -30rem;
+  height: 50rem;
+  width: 50rem;
+  border-radius: 50%;
+  filter: blur(10rem);
+}
+
+.faq {
+  padding: 15.5rem 9rem;
+  background-color: var(--bg-primary-clr);
+  display: flex;
+  gap: 10rem;
+}
+
+.faq__title {
+  font-size: 4.8rem;
+  text-transform: uppercase;
+  margin-bottom: 5rem;
+}
+
+.faq__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+  gap: 5rem;
+  list-style: none;
+  padding-top: 3rem;
+  padding-left: 5rem;
+}
+
+.faq__list-item {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 9rem;
+  padding-bottom: 15.5rem;
+  margin-top: -8rem;
+}
+
+.footer__list {
+  display: flex;
+  list-style: none;
+  gap: 12rem;
+}
+
+.footer__list-link {
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.footer__list-link:hover {
+  cursor: pointer;
+  text-decoration: none;
 }
