@@ -3,9 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js" defer></script>
     <title>Shopify - Landingpage</title>
   </head>
-  <body></body>
+  <body>
+    <div class="left-top"></div>
+    <div class="center-top"></div>
+    <div class="right-top"></div>
+    <header class="header">
+      <img
+        src="/img/shopify-logo.svg"
+        alt="Shopify Logo"
+        class="header__logo"
+      />
+      <h1 class="header__title">
+        Bring your ideas to life for<br />
+        € 1/month
+      </h1>
+      <p class="header__tagline">
+        The future of business is yours to shape. Sign up for a free trial and
+        enjoy 3<br />
+        months of Shopify for € 1/month on select plans.
+      </p>
+      <div class="header__form">
+        <input
+          type="text"
+          class="header__input"
+          placeholder="Enter your email address"
+        />
+        <button class="header__button">Start free trial</button>
+      </div>
+      <p class="header__small">
+        Try Shopify free for 3 days, no credit card required. By entering your
+        email, you<br />
+        agree to receive marketing emails from Shopify.
+      </p>
+    </header>
+    <div class="marketplace">
+      <img src="/img/shopify_marketplace.svg" alt="" class="marketplace__img" />
+    </div>
+    <section class="usp">
+      <ul class="usp__list">
+        <li class="usp__list-item">
+          <span class="material-symbols-outlined"> add_ad </span>
+          <h3 class="usp__title">Customizable templates</h3>
+          <p class="usp__description">
+            Free website designs to launch your store quickly and easily.
+          </p>
+        </li>
+        <li class="usp__list-item">
+          <span class="material-symbols-outlined"> package </span>
+          <h3 class="usp__title">All in one</h3>
+          <p class="usp__description">
+            Shopify takes care of everything from marketing and payments to
+            secure transactions and shipping.
+          </p>
+        </li>
+        <li class="usp__list-item">
+          <span class="material-symbols-outlined"> lock </span>
+          <h3 class="usp__title">A safe and efficient platform</h3>
+          <p class="usp__description">
+            Millions of users trust Shopify to manage their online stores.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
