@@ -2,7 +2,7 @@ const topCta = document.querySelector(".top-cta");
 const closeCta = document.querySelector(".top-cta__btn-close");
 
 closeCta.addEventListener("click", () => {
-  topCta.style.display = "none";
+  topCta.remove();
 });
 
 window.onscroll = function () {
@@ -10,7 +10,10 @@ window.onscroll = function () {
 };
 
 function showOnScroll() {
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
     topCta.style.display = "block";
   } else {
     topCta.style.display = "none";
