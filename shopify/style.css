@@ -22,6 +22,57 @@ body {
   position: relative;
 }
 
+.top-cta-wrapper {
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.top-cta {
+  height: 6rem;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+}
+
+.top-cta__text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.top-cta__btn {
+  padding: 1rem 2rem;
+  border-radius: 10rem;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+.top-cta__btn--white {
+  background-color: #fff;
+  color: #000;
+  border: 0.2rem solid #000;
+  margin-right: auto;
+}
+
+.top-cta__btn-close {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-right: 2.2rem;
+  cursor: pointer;
+}
+
 .left-top {
   background-color: #1bd8ac;
   position: absolute;
